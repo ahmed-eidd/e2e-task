@@ -1,0 +1,152 @@
+[
+  {
+    "name": "UltraFit Running Shoes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius",
+    "price": 100
+  },
+  {
+    "name": "EchoNoise Wireless Earbuds",
+    "description": "Curabitur pretium tincidunt lacus, non rutrum dolor suscipit sed",
+    "price": 150
+  },
+  {
+    "name": "SmartHome Thermostat",
+    "description": "Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus",
+    "price": 120
+  },
+  {
+    "name": "AquaFresh Water Bottle",
+    "description": "Pellentesque eu tincidunt tortor aliquam nulla facilisi cras",
+    "price": 110
+  },
+  {
+    "name": "PowerMax Portable Charger",
+    "description": "Etiam sit amet nisl purus in mollis nunc sed id semper",
+    "price": 200
+  },
+  {
+    "name": "ComfyNest Memory Foam Pillow",
+    "description": "Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet",
+    "price": 90
+  },
+  {
+    "name": "GlidePro Skateboard",
+    "description": "Aliquam sem fringilla ut morbi tincidunt augue interdum velit",
+    "price": 180
+  },
+  {
+    "name": "PureSound Bluetooth Speaker",
+    "description": "In ante metus dictum at tempor commodo ullamcorper a lacus",
+    "price": 130
+  },
+  {
+    "name": "EcoLite LED Desk Lamp",
+    "description": "Faucibus scelerisque eleifend donec pretium vulputate sapien nec",
+    "price": 140
+  },
+  {
+    "name": "TravelMate Backpack",
+    "description": "Quis vel eros donec ac odio tempor orci dapibus ultrices",
+    "price": 170
+  },
+  {
+    "name": "ZenGarden Indoor Plant Kit",
+    "description": "Felis eget velit aliquet sagittis id consectetur purus ut faucibus",
+    "price": 210
+  },
+  {
+    "name": "EliteFocus Binoculars",
+    "description": "Integer malesuada nunc vel risus commodo viverra maecenas",
+    "price": 160
+  },
+  {
+    "name": "QuickBrew Coffee Maker",
+    "description": "Orci dapibus ultrices in iaculis nunc sed augue lacus viverra",
+    "price": 115
+  },
+  {
+    "name": "SwiftBlade Kitchen Knife Set",
+    "description": "Pulvinar pellentesque habitant morbi tristique senectus et netus",
+    "price": 95
+  },
+  {
+    "name": "FitTrack Fitness Band",
+    "description": "Vivamus arcu felis bibendum ut tristique et egestas quis",
+    "price": 185
+  },
+  {
+    "name": "AeroCool Tower Fan",
+    "description": "Risus pretium quam vulputate dignissim suspendisse in est ante",
+    "price": 125
+  },
+  {
+    "name": "LuxSleep Weighted Blanket",
+    "description": "Neque aliquam vestibulum morbi blandit cursus risus at ultrices",
+    "price": 145
+  },
+  {
+    "name": "HydroGuard Umbrella",
+    "description": "Eu augue ut lectus arcu bibendum at varius vel pharetra",
+    "price": 175
+  },
+  {
+    "name": "PureTaste Water Filter",
+    "description": "Ornare arcu odio ut sem nulla pharetra diam sit amet",
+    "price": 160
+  },
+  {
+    "name": "ProFit Yoga Mat",
+    "description": "Nunc sed id semper risus in hendrerit gravida rutrum",
+    "price": 135
+  },
+  {
+    "name": "CoolBreeze Air Conditioner",
+    "description": "Amet porttitor eget dolor morbi non arcu risus quis",
+    "price": 155
+  },
+  {
+    "name": "FlexiGrip Resistance Bands",
+    "description": "Ultrices dui sapien eget mi proin sed libero enim sed",
+    "price": 105
+  },
+  {
+    "name": "SmartLock Door Lock",
+    "description": "Ac felis donec et odio pellentesque diam volutpat commodo",
+    "price": 195
+  },
+  {
+    "name": "EcoBreeze Air Purifier",
+    "description": "Molestie nunc non blandit massa enim nec dui nunc mattis",
+    "price": 165
+  },
+  {
+    "name": "SwiftCharge Car Charger",
+    "description": "In pellentesque massa placerat duis ultricies lacus sed turpis",
+    "price": 185
+  },
+  {
+    "name": "ClearView Monitor Stand",
+    "description": "Elit ut aliquam purus sit amet luctus venenatis lectus magna",
+    "price": 115
+  },
+  {
+    "name": "ComfortRest Recliner Chair",
+    "description": "Habitant morbi tristique senectus et netus et malesuada fames ac",
+    "price": 145
+  },
+  {
+    "name": "SpeedBoost WiFi Extender",
+    "description": "Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan",
+    "price": 125
+  },
+  {
+    "name": "UltraShield Phone Case",
+    "description": "Sed risus ultricies tristique nulla aliquet enim tortor",
+    "price": 190
+  },
+  {
+    "name": "ProCook Nonstick Pan",
+    "description": "Enim nec dui nunc mattis enim ut tellus elementum",
+    "price": 150
+  }
+]
