@@ -6,12 +6,14 @@ export const cartContext = createContext<CartContext>({
   cart: [],
   addToCart: (product: Product) => {},
   removeFromCart: (product: Product) => {},
+  clearCart: () => {},
 });
 
 interface CartContext {
   cart: Product[];
   addToCart: (product: Product) => void;
   removeFromCart: (product: Product) => void;
+  clearCart: () => void,
 }
 
 const CartProvider: React.FC<{ children: React.ReactNode }> = ({
@@ -27,8 +29,11 @@ const CartProvider: React.FC<{ children: React.ReactNode }> = ({
     setCart((prevCart) => prevCart.filter((p) => p.id !== product.id));
   };
 
+  const clearCart = () => {
+    setCart([]);
+  };
   return (
-    <cartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+    <cartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart }}>
       {children}
     </cartContext.Provider>
   );

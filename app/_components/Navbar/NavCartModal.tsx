@@ -1,6 +1,6 @@
 import { cartContext } from '@/app/CartProvider';
 import { Dialog, DialogPanel } from '@headlessui/react';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { NavCartStep } from './NavCartModalSteps/NavCartStep';
 import { NavCheckoutStep } from './NavCartModalSteps/NavCheckoutStep';
 import { NavSuccessStep } from './NavCartModalSteps/NavSuccessStep';
@@ -16,6 +16,7 @@ const STEPS = {
 };
 const NavCartModal: React.FC<Props> = ({ isOpen, setIsOpen }) => {
   const [step, setStep] = useState(STEPS.cart);
+  const cartSelector = useContext(cartContext);
   return (
     <Dialog
       open={isOpen}
@@ -41,6 +42,7 @@ const NavCartModal: React.FC<Props> = ({ isOpen, setIsOpen }) => {
                 onNext={() => {
                   setStep(STEPS.cart);
                   setIsOpen(false);
+                    cartSelector.clearCart()
                 }}
               />
             )}
